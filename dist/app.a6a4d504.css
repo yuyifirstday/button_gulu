@@ -1,0 +1,27 @@
+.g-button {
+  display: flex;
+  align-items: center;
+  font-size: var(--font-size);
+  height: var(--button-height);
+  padding: 0 1em;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
+  background: var(--button-bg); }
+  .g-button:hover {
+    border-color: var(--border-color-hover); }
+  .g-button:active {
+    border-color: var(--button-active-bg); }
+  .g-button:focus {
+    outline: none; }
+
+.left > .content {
+  order: 2; }
+
+.left > .icon {
+  order: 1; }
+
+.right > .content {
+  order: 1; }
+
+.right > .icon {
+  order: 2; }
